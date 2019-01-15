@@ -36,3 +36,8 @@ systemctl daemon-reload
 systemctl enable showip
 systemctl start showip
 ```
+
+In order to connect to the Raspberry Pi at this point,
+it is highly likely that you must be connected to the
+same network as it is connected to. The SSH daemon
+must also be [enabled](https://www.raspberrypi.org/documentation/remote-access/ssh/).
