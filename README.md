@@ -27,7 +27,9 @@ cp showip.service /etc/systemd/system/
 ```
 
 Then reload daemon files, enable (and alternatively,
-start) the service.
+start) the service. When the service is enabled, the
+script will run on boot, after a network connection
+has been established.
 
 ```sh
 systemctl daemon-reload
