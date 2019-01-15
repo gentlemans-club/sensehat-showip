@@ -5,7 +5,7 @@ Wants=network.target network-online.target
 
 [Service]
 Type=simple
-ExecStart=/path/to/showip.py # Modify this line to point to showip.py before copying!
+ExecStart=/home/pi/sensehat-showip/showip.py # Modify this line to point to showip.py before copying!
 
 [Install]
 WantedBy=multi-user.target
