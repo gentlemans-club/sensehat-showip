@@ -26,6 +26,12 @@ line in `showip.service` to point to a valid path to
 cp showip.service /etc/systemd/system/
 ```
 
+`showip.py` should also be possible to execute:
+
+```sh
+chmod +x showip.py
+```
+
 Then reload daemon files, enable (and alternatively,
 start) the service. When the service is enabled, the
 script will run on boot, after a network connection
