@@ -10,6 +10,12 @@ The IP is printed 10 times before the process
 finishes, which is hopefully enough time for you to
 note down what the IP is.
 
+## Requirements
+
+* Raspberry Pi
+* Sense HAT
+  * [The Sense HAT Python library](https://pythonhosted.org/sense-hat/#install)
+
 ## Setup
 
 After cloning this repository, modify the `ExecStart`
