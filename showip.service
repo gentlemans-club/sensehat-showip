@@ -1,0 +1,11 @@
+[Unit]
+Description=Shows the local IP on the SenseHat LED matrix
+After=network-online.target
+Wants=network.target network-online.target
+
+[Service]
+Type=simple
+ExecStart=/path/to/showip.py # Modify this line to point to showip.py before copying!
+
+[Install]
+WantedBy=multi-user.target
